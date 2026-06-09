@@ -2,7 +2,7 @@
 
 void print_adress(int *n)
 {
-    printf("%p\n", (void *)n);
+    printf("%p\n", n);
 }
 
 int main()
