@@ -8,13 +8,13 @@ void my_strcpy(char *dest, const char *src)
         dest++;
         src++;
     }
-    *dest = '\0'; // Null-terminate the destination string
+    *dest = '\0'; 
 }
 
 int main()
 {
     char src[] = "Hello, World!";
-    char dest[20]; // Ensure this is large enough to hold the source string
+    char dest[20]; 
 
     my_strcpy(dest, src);
     printf("Copied string: %s\n", dest);
